@@ -1,0 +1,196 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #efefef;
+    font-weight: bold;
+}
+
+.menue {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #594d46;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+}
+
+.logo-header {
+    height: 50px;
+    width: auto;
+    border-radius: 32px;
+}
+
+.linke-leiste {
+    display: flex;
+    gap: 32px;
+    font-size: 18px;
+}
+
+.hero {
+    flex: 1;
+    background-color: #594d46;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    gap: 300px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+.logo-hero {
+    height: auto;
+    width: 300px;
+    border-radius: 300px;
+    flex-shrink: 1;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #efefef;
+
+}
+
+.hero-gross {
+    font-size: 42px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.hero-klein {
+    font-size: 24px;
+    margin: 0px;
+    
+}
+
+.auswahl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    background-color: #efefef;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+.auswahl-ueberschrift {
+    font-size: 42px;
+    font-weight: 900;
+    padding-bottom: 48px;
+    padding-top: 24px;
+    margin: 0px;
+    color: #080706;
+}
+
+.auswahl-inhalt {
+    display: flex;
+    gap: 120px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+.kasten-bild {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    border: 4px;
+    border-style: solid;
+    border-color: #080706;
+}
+
+.kasten-text {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 18px;
+    color: #080706;
+}
+
+.zitat {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #d1b280;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.zitat-spruch {
+    font-size: 36px;
+    font-style: italic;
+    color: #594d46;
+}
+
+.zitator {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 900;
+    font-size: 24px;
+    font-style: italic;
+    color: #594d46;
+}
+
+.pzitat {
+    padding: 0px;
+    margin: 0px;
+}
+
+.fan {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #594d46;
+    margin: 100 200 100 200;
+    border-radius: 32px;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.fan-titel {
+    align-text: center;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0px;
+    color: #efefef;
+}
+
+.fan-text {
+    align-text: center;
+    margin: 0px;
+    padding: 0px;
+    color: #efefef;
+}
+
+.fan-button {
+    border-radius: 32px;
+    background-color: #594d46;
+    border: solid;
+    border-color: #efefef;
+    font-size: 20px;
+    font-weight: bold;
+    color: #efefef;
+}
+
+.footer {
+    background-color: #594d46;
+    color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
