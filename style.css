@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #efefef;
 }
 
 a {
@@ -156,7 +157,7 @@ a {
     justify-content: space-around;
     align-items: center;
     background-color: #594d46;
-    margin: 100 200 100 200;
+    margin: 100px 200px 100px 200px;
     border-radius: 32px;
     padding: 40px;
     font-size: 20px;
